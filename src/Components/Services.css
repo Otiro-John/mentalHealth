@@ -1,0 +1,42 @@
+ 
+ .cards{
+    width: 400px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 3px 10px 10px 5px #979292 ;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.cards img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 30px 0;
+}
+.cards h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.cards p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 15px 0;
+}
+.cards button{
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    border: 0;
+    border-radius: 3px;
+    background-color:rgb(45, 214, 45) ;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    outline: 0;
+}

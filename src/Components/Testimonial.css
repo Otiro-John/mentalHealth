@@ -1,0 +1,122 @@
+.testimonials {
+    width: 90%;
+    max-width: 1200px; /* Prevents growing too large on wide screens */
+    margin: 0 auto;
+    padding-top: 50px;
+    box-sizing: border-box; /* Ensures padding is included in width calculations */
+  }
+  
+  .title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .testimonies {
+    width: 100%; /* Full width to make it responsive */
+    max-width: 600px; /* Maximum width of each testimonial */
+    height: auto; /* Adjust height to fit content */
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 3px 5px 10px 5px #979292;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Ensures padding is included in width calculations */
+  }
+  
+  .testimonies blockquote {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin: 0; /* Ensure no extra margin */
+  }
+  
+  .profile {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 15px;
+    flex-direction: column; /* Stack profile items vertically */
+  }
+  
+  .img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 4px solid rgb(45, 214, 45);
+    border-bottom: 4px solid #fff;
+    padding: 3px;
+    box-sizing: border-box; /* Ensure padding is included in width calculations */
+  }
+  
+  .img img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+  
+  .text {
+    text-align: left;
+  }
+  
+  .text h2 {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .text p {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+    .testimonials {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .title {
+      font-size: 1.2em;
+    }
+  
+    .testimonies {
+      padding: 10px;
+    }
+  
+    .profile {
+      gap: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 1em;
+    }
+  
+    .testimonies {
+      padding: 5px;
+    }
+  
+    .img {
+      width: 60px;
+      height: 60px;
+      border: 3px solid rgb(45, 214, 45);
+    }
+  
+    .img img {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .text h2 {
+      font-size: 1em;
+    }
+  
+    .text p {
+      font-size: 12px;
+    }
+  }
+  
